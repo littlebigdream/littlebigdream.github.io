@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
+## 如何访问国外网站，怎么上Google谷歌查资料，怎么看youtube？为小白提供思路
 
-You can use the [editor on GitHub](https://github.com/littlebigdream/littlebigdream.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+&nbsp;
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+对于刚接触的小白来说，一头雾水，不知道从何下手。
 
-### Markdown
+授人以鱼不如授人以渔，我主要讲思路。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+&nbsp;
 
-```markdown
-Syntax highlighted code block
+### 工具的类型
 
-# Header 1
-## Header 2
-### Header 3
+想要访问国外网站，**主要工具分两类，VPN和代理。**（隐晦一点的名字有梯子、加速器等）。现在见到的大部分工具都是代理类型的。
 
-- Bulleted
-- List
+在WIN10里可以很清楚的看到这两类：
+![win10_vpn_proxy.png](./images/win10_vpn_proxy.png)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+它们的原理差不多，但是实现方法不同。
 
-[Link](url) and ![Image](src)
+容易看见的区别：
 ```
+1、协议不同。2、VPN不需要设置端口，代理需要。3、VPN对整个电脑生效，代理对一部分软件生效。
+```
+![TypesOfVPN.png](./images/TypesOfVPN.png)
+![proxy_port.png](./images/proxy_port.png)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+&nbsp;
 
-### Jekyll Themes
+### 思路与选择
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/littlebigdream/littlebigdream.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- 其实，VPN是用来远程办公的，如果使用它去访问国外网站，有点偏离正轨的味道。**不建议用V**，还有一个原因，那就是V的特征太明显，很容易被识别。而且那些知名的服务商，既然知名，肯定会被我们的防火墙特别关照。不信 网上搜搜 express Nord 退款。。。这还是比较有实力的服务商了，虽然断断续续能用，但是经常断，经常要联系客服，手动调整，让人很心烦。。。
 
-### Support or Contact
+- 至于“机场”，**是个不错的选择**，主要因为便宜，而且节点多，特别适合“随便用用的人”。但是缺点是用的人多，情况复杂，速度不稳，容易被封，所以要买那种月付的，减少损失。当然，如果能找到比较优质的，体验也会不错，不要嫌麻烦，多找找，找名声好点的。（机场不是工具名，可以理解为卖工具的商家）
+```markdown
+从我的经验来看，现在想要找到什么好用又稳定的工具，很难，**难在稳定。**
+```
+- **最好的选择**：建议自己搭建各种开源软件，私人用，风险小。在开源社区Github上用关键词搜索找软件，种类有很多，各有优缺点。教程的话，网上也很多，可以先用免费的工具上Google，然后很容易就能找到教程。
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+其中，**最重要的就是购买云服务器**，这关系到网速的好坏和稳定性。需要准备一张信用卡或者PayPal，因为稍大一点的主流的服务商就只支持这样的支付方式，只有一小部分是支持支付宝的。价格的话，稍微好一点是5-10美元每月，可以舒服的看视频。。我搭建的这个，看YouTube1080p的视频很轻松，也挺省心的，用了差不多两年了。。
+    
+还有一点，访问国外网站的速度也和自己的网络状况  有很大关系，比如你所在的省份，所使用的宽带等等。沿海地区的 速度会快一些，电信、联通的宽带会快一些，移动的宽带就稍差一些。。
+
+&nbsp;
+
+如果是小白，肯定不会很顺利，不要着急，这是一个慢慢摸索的过程。。
+
+![tizi.png](./images/tizi.png)
